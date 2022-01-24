@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+/* common css */
+body {
+  font-family: "Poppins", sans-serif;
+}
+.section-title {
+  color: #0a0826;
+  font-size: 38px;
+}
+.section-desc,
+p {
+  color: #6c6c6c;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+}
+/* menu section */
+.convension-menu,
+.convension-menu li a {
+  color: #0a0826;
+  font-weight: 700;
+}
+/* slider  */
+#con-slider {
+  height: calc(100vh-100px);
+}
+#con-slider p {
+  color: white !important;
+}
+.convence-bg-white p {
+  color: #fff;
+}
+.overlay-parents {
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: rgba(0, 0, 0, 0.56);
+}
+/* preciou style */
+.precious {
+  position: relative;
+}
+.offer-section-main {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.offer-section {
+  position: relative;
+}
+.offer-section::before {
+  content: "";
+  position: absolute;
+  top: -14px;
+  left: -26px;
+  border: 6px solid #0b5ed7;
+  background-color: #0b5ed7;
+  height: 214%;
+}
+
+.convence-bg-white {
+  background-color: #fff !important;
+}
+
+/* price style */
+.price-spacing {
+  margin-top: -35px;
+}
+.convence-shadow {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 25px lightgray;
+}
+.icon-width img {
+  width: 140px;
+  height: auto;
+  margin: 2px;
+}
+.text-right {
+  text-align: right;
+}
+.convention-price {
+  position: relative;
+}
+.tooltip-convention {
+  position: absolute;
+  color: white;
+  background-color: red;
+  top: -15px;
+  right: 35px;
+}
+.convention-price p {
+  color: white;
+}
